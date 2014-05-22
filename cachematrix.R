@@ -1,6 +1,6 @@
 ## The following functions are designed to calculate, cache, and return the 
-## inverse of a square matrix. All matricies are initially calculated with 
-## solve(x). Inverse matricies that have already been calculated are retuned 
+## inverse of a square matrix. All matrices are initially calculated with 
+## solve(x). Inverse matrices that have already been calculated are retuned 
 ## from the cache. 
 
 ## makecaheMatrix provides functions to:
@@ -44,3 +44,4 @@ cacheSolve <- function(x, ...) {
         x$setinverse(invt)
         invt
 }
+
